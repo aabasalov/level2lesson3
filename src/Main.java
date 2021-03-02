@@ -19,7 +19,6 @@ public class Main {
         uniqueAuto.forEach (auto -> countAuto.put(auto, 0));
         autoList.forEach (auto -> countAuto.put(auto, countAuto.get(auto)+1));
         System.out.println(countAuto);
-        
     }
 }
 
